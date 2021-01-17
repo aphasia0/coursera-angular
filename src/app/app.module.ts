@@ -7,13 +7,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MenuComponent } from './menu/menu.component';
 import { MatButtonModule, MatCardModule, MatGridListModule, MatListModule } from '@angular/material';
+import { DishdetailComponent } from './dishdetail/dishdetail.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    DishdetailComponent
   ],
   imports: [
     BrowserModule,
